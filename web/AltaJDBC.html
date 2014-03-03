@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Alta de usuario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <div>
+            <center>Ficha de Cliente</center>
+            <form name="form1" action="Servlet5" method="post">
+                Nombre:<input type="text" name="nombre"/>
+                <br/>
+                Primer Apellido:<input type="text" name="apellido1"/>
+                Segundo Apellido:<input type="text" name="apellido2"/>
+                <br/>
+                Domicilio:<input type="text" name="direccion"/>
+                <br/>
+                Provincia:
+                <select name="provincia">
+                    <option value='ALAVA'>Álava</option>
+                    <option value='ALBACETE'>Albacete</option>
+                    <option value='ALICANTE'>Alicante</option>
+                    <option value='ALMERIA'>Almería</option>
+                    <option value='ASTURIAS'>Asturias</option>
+                    <option value='AVILA'>Ávila</option>
+                    <option value='BADAJOZ'>Badajoz</option>
+                    <option value='BARCELONA'>Barcelona</option>
+                    <option value='BURGOS'>Burgos</option>
+                    <option value='CACERES'>Cáceres</option>
+                    <option value='CADIZ'>Cádiz</option>
+                    <option value='CANTABRIA'>Cantabria</option>
+                    <option value='CASTELLON'>Castellón</option>
+                    <option value='CEUTA'>Ceuta</option>
+                    <option value='CIUDAD REAL'>Ciudad Real</option>
+                    <option value='CORDOBA'>Córdoba</option>
+                    <option value='CUENCA'>Cuenca</option>
+                    <option value='GERONA'>Gerona</option>
+                    <option value='LAS PALMAS'>Las Palmas</option>
+                    <option value='GRANADA'>Granada</option>
+                    <option value='GUADALAJARA'>Guadalajara</option>
+                    <option value='GUIPUZCOA'>Guipúzcoa</option>
+                    <option value='HUELVA'>Huelva</option>
+                    <option value='HUESCA'>Huesca</option>
+                    <option value='ISLAS BALEARES'>Islas Baleares</option>
+                    <option value='JAEN'>Jaén</option>
+                    <option value='A CORUÑA'>A Coruña</option>
+                    <option value='LA RIOJA'>La Rioja</option>
+                    <option value='LEON'>León</option>
+                    <option value='LERIDA'>Lerida</option>
+                    <option value='LUGO'>Lugo</option>
+                    <option value='MADRID'>Madrid</option>
+                    <option value='MALAGA'>Málaga</option>
+                    <option value='MELILLA'>Melilla</option>
+                    <option value='MURCIA'>Murcia</option>
+                    <option value='NAVARRA'>Navarra</option>
+                    <option value='ORENSE'>Orense</option>
+                    <option value='PALENCIA'>Palencia</option>
+                    <option value='PONTEVEDRA'>Pontevedra</option>
+                    <option value='SALAMANCA'>Salamanca</option>
+                    <option value='SEGOVIA'>Segovia</option>
+                    <option value='SEVILLA'>Sevilla</option>
+                    <option value='SORIA'>Soria</option>
+                    <option value='TARRAGONA'>Tarragona</option>
+                    <option value='TENERIFE'>Santa Cruz de Tenerife</option>
+                    <option value='TERUEL'>Teruel</option>
+                    <option value='TOLEDO'>Toledo</option>
+                    <option value='VALENCIA'>Valencia</option>
+                    <option value='VALLADOLID'>Valladolid</option>
+                    <option value='VIZCAYA'>Vizcaya</option>
+                    <option value='ZAMORA'>Zamora</option>
+                    <option value='ZARAGOZA'>Zaragoza</option>
+                </select>
+                <br/>
+                Sexo: Hombre<input type="radio" name="sexo" value="H"/>
+                Mujer<input type="radio" name="sexo" value="M"/>
+                <br/>
+                Sistema: Windows<input type="checkbox" name="sistema" value="w"/>
+                Linux<input type="checkbox" name="sistema" value="l"/>
+                Mac<input type="checkbox" name="sistema" value="m"/>
+                <br/>
+                Introduzca sus comentarios:
+                <br/>
+                <textarea name="comentario" cols="60" rows="5"></textarea>
+                <br/>
+                <input type="submit" value="Guardar"/>
+                <input type="reset" value="Borrar"/>
+            </form>
+        </div>
+    </body>
+</html>
